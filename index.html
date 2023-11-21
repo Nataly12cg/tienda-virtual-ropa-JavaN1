@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Virtual de Ropa para Hombre</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>TODO PARA HOMBRE</h1>
+    <h1>Para todo los Estilos</h1>
+  </header>
+  <main>
+    <section class="productos">
+      <div class="producto">
+        <img src="img/camisa1.jpg" alt="Camisa">
+        <h2>Camiseta Azul</h2>
+        <p>Talla L</p>
+        <p>Precio: $38.99</p>
+        <button class="agregar-carrito" data-id="1">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/pantalon1.jpg" alt="Pantalón">
+        <h2>Jean azul</h2>
+        <p>Todas las tallas</p>
+        <p>Precio: $80.990</p>
+        <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/riñonera1.jpg" alt="Riñonera">
+        <h2>Riñonera</h2>
+        <p>Riñonera negra, de gran resistencia y durabilidad</p>
+        <p>Precio: $50.000</p>
+        <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/gafasdesol1.jpg" alt="Gafas de Sol">
+        <h2>Gafas de Sol</h2>
+        <p>Gafas Under Armour replica AAA</p>
+        <p>Precio: $120.000</p>
+        <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/medias2.jpg" alt="Medias">
+        <h2>Medias</h2>
+        <p>En todas las tallas y colores x3</p>
+        <p>Precio: $10.000</p>
+        <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+      </div>
+      <!-- Más productos -->
+    </section>
+
+    <aside class="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul class="lista-carrito">
+        <!-- Los productos seleccionados se agregarán aquí -->
+      </ul>
+      <p>Total: $<span id="total-carrito">0.00</span></p>
+      <button class="vaciar-carrito">Vaciar Carrito</button>
+    </aside>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
